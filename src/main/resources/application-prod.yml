@@ -1,0 +1,5 @@
+web:
+  config:
+    webTitle: "欢迎使用SpringBoot-(Prod)"
+    authorName: "菩提树下的杨过-Prod"
+    authorBlogUrl: "http://yjmyzz.cnblogs.com/"

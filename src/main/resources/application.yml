@@ -1,0 +1,25 @@
+server:
+  port: 8081
+
+management:
+  security:
+    enabled: false
+  port: 1101
+  context-path: /admin
+
+endpoints:
+  shutdown:
+    enabled: true
+
+spring:
+  main:
+    banner-mode: "off"
+  devtools:
+    restart:
+      trigger-file: .trigger
+    livereload:
+      enabled: false
+  thymeleaf:
+    cache: false
+  profiles:
+    active: dev
